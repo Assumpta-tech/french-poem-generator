@@ -7,40 +7,43 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI French Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the French Poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Welcome to the AI French Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the French Poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Assumpta-tech" target="_blank"> Assumpta </a
-      >and is
-      <a
-        href="https://github.com/Assumpta-tech/french-poem-generator.git"
-        target="_blank"
-      >
-        Open source on Github</a
-      >
-      and is
-      <a href="https://french-generator.netlify.app/"> hosted on Netlify</a>
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Assumpta-tech" target="_blank"> Assumpta </a
+        >and is
+        <a
+          href="https://github.com/Assumpta-tech/french-poem-generator.git"
+          target="_blank"
+        >
+          Open source on Github</a
+        >
+        and is
+        <a href="https://french-generator.netlify.app/"> hosted on Netlify</a>
+      </footer>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
